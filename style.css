@@ -1,0 +1,26 @@
+body{
+    background-image: url("./bg1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+#flex_div{
+    display:flex;
+    justify-content: center;
+}
+#divie{
+    margin-top:5%;
+    background:linear-gradient(to left,lime,cyan);
+    opacity: 0.85;
+    font-family: 'Langar', cursive;
+}
+#live_camera{
+    width:320px;
+    height:240px;
+    border:blue ridge 5px;
+}
+#selfie{
+    width:320px;
+    height:240px;
+    border:red ridge 5px;
+}

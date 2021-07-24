@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <title>VOICEFIE</title>
+</head>
+
+<body>
+    <div id="flex_div">
+        <div id="divie" class="container col-lg-9 col-md-9 col-sm-11 col-xs-12">
+            <br>
+            <center>
+                <h1>
+                    <marquee id="mark">WELCOME TO VOICEFIE</marquee>
+                </h1>
+                <a href="" id="link" download="VOICEFIE.PNG"></a>
+                <div class="form-group">
+                    <h1 class="text-danger">SAY "HELLO, TAKE MY SELFIE" </h1>
+                    <textarea id="ouptput_voice" class="form-control" style="resize: none;" readonly="true"></textarea>
+                    <br>
+                    <br>
+                    <h3><kbd id="noconfidence"></kbd></h3>
+                    <image class="img-thumbnail" style="width:20%;" src="./RECORD.gif" onclick="start()"></image>
+                    <br>
+                </div>
+                <br>
+                <hr>
+                <hr>
+                <h2 class="text-primary">YOUR LIVE VIDEO</h2>
+                <div id="live_camera">
+                    <br>
+                </div>
+                <h2 class="text-primary">YOUR VOICEFIE</h2>
+                <div id="selfie">
+
+                </div>
+            </center>
+        </div>
+    </div>
+    <script src="./source.js"></script>
+</body>
+
+</html>
